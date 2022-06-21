@@ -69,7 +69,6 @@ with c30:
             f"""
                 👆 Upload a .csv file first. Sample to try: [biostats.csv](https://people.sc.fsu.edu/~jburkardt/data/csv/biostats.csv)
                 """
-
 from st_aggrid import GridUpdateMode, DataReturnMode
 
 gb = GridOptionsBuilder.from_dataframe(shows)
